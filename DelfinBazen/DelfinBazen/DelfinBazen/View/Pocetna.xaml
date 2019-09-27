@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="DelfinBazen.XamlFileovi.Pocetna"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DelfinBazen.XamlFileovi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid HorizontalAlignment="Left" Height="642" Margin="50,50,0,0" VerticalAlignment="Top" Width="800" Background="#FF00AEFF">
+            <TextBlock HorizontalAlignment="Left" Margin="148,90,0,0" Text="Dobrodošli!" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="334" FontSize="36" FontWeight="Bold" FontStyle="Italic" SelectionChanged="TextBlock_SelectionChanged"/>
+            <Button Content="Prijavite se i odaberite svoju dnevnu ponudu!" HorizontalAlignment="Left" Margin="148,164,0,0" VerticalAlignment="Top" Height="64" Width="461" Background="White" FontSize="20" Click="Button_Click"/>
+            <Button Content="Registrujte se (pojedinacna prijava)!" HorizontalAlignment="Left" Margin="148,252,0,0" VerticalAlignment="Top" Height="64" Width="461" Background="White" FontSize="20" Click="Button_Click_1"/>
+            <Button Content="Prijavite se i odaberite dodatne mogućnosti!" HorizontalAlignment="Left" Margin="148,436,0,0" VerticalAlignment="Top" Height="64" Width="461" Background="White" FontSize="20" Click="Button_Click_3"/>
+            <Button Content="Registrujte se (timska prijava)!" HorizontalAlignment="Left" Margin="148,343,0,0" VerticalAlignment="Top" Height="64" Width="461" Background="White" FontSize="20" Click="Button_Click_2"/>
+        </Grid>
+
+    </Grid>
+</Page>
